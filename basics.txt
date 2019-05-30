@@ -1,0 +1,51 @@
+WHAT IS A DATABASE?
+======================
+A large amount of information stored in a computer system in such a way it can be easily looked or changed!
+*TYPES OF DATABASES:
+-relational (sql);
+-non-relational(NoSql)
+----------------------
+In sql each column, local variable, expression and parameter have a related data type. A DATA TYPE CAN BE: int, nvarchar, varchar, char, binary, time.....
+========================
+CREATE ALTER AND DELETE DATABASE
+1.CREATE DATABASE
+--create database Sample1
+================================
+
+2.MODIFY THE DATABASE
+ --alter database Sample1 modify name = Sample2
+ sp_renameDB 'Sample2','Sample3'
+
+===========================================
+3.DELETE THE DATABASE
+ drop database Sample3
+
+============================================
+CREATE AND WORKING WITH TABLES
+What is the difference between Clustered and Non-Clustered Indexes in SQL Server?
+Differences between clustered and non-clustered indexes.
+	1. 
+There can be only one clustered index per table. However, you can create multiple non-clustered indexes on a single table.
+	2. 
+Clustered indexes only sort tables. Therefore, they do not consume extra storage. Non-clustered indexes are stored in a separate place from the actual table claiming more storage space.
+	3. 
+Clustered indexes are faster than non-clustered indexes since they don’t involve any extra lookup step.
+
+
+What is the difference between Pimary Key and Foreign Key?
+In SQL Server, there are two keys - primary key and foreign key which seems identical, but actually both are different in features and behaviors.
+
+Primary Key
+ForeignKey
+
+Primary key uniquely identify a record in the table.
+Foreign key is a field in the table that is primary key in another table.
+
+Primary Key can't accept null values.
+Foreign key can accept multiple null value.
+
+By default, Primary key is clustered index and data in the database table is physically organized in the sequence of clustered index.
+Foreign key do not automatically create an index, clustered or non-clustered. You can manually create an index on foreign key.
+
+We can have only one Primary key in a table.
+We can have more than one foreign key in a table.
