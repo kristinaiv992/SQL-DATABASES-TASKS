@@ -1,3 +1,4 @@
+![Capture](https://user-images.githubusercontent.com/45533932/58921427-f894dd00-8736-11e9-9ab0-45d12d977a1c.JPG)
 Homework Requirements
 ========================
 1.Faculty has 88 Teachers
@@ -24,7 +25,7 @@ Date, Student, Teacher, Course, Grade value
 
 ***
 Additionally for each Grade, system should keep details about:
-Achievement type (home work,exam, class activity…),
+Achievement type (home work,exam, class activityâ€¦),
 achievement points, 
 achievement maximum points 
 and chievement date.
