@@ -7,7 +7,7 @@ A large amount of information stored in a computer system in such a way it can b
 ----------------------
 In sql each column, local variable, expression and parameter have a related data type. A DATA TYPE CAN BE: int, nvarchar, varchar, char, binary, time.....
 ========================
-###CREATE ALTER AND DELETE DATABASE
+CREATE ALTER AND DELETE DATABASE
 1.CREATE DATABASE
 --create database Sample1
 ================================
@@ -21,9 +21,9 @@ In sql each column, local variable, expression and parameter have a related data
  drop database Sample3
 
 ============================================
-###CREATE AND WORKING WITH TABLES
+CREATE AND WORKING WITH TABLES
 ____________________________________________________________
-###What is the difference between Clustered and Non-Clustered Indexes in SQL Server?
+What is the difference between Clustered and Non-Clustered Indexes in SQL Server?
 Differences between clustered and non-clustered indexes.
 	1. 
 There can be only one clustered index per table. However, you can create multiple non-clustered indexes on a single table.
@@ -33,7 +33,7 @@ Clustered indexes only sort tables. Therefore, they do not consume extra storage
 Clustered indexes are faster than non-clustered indexes since they don’t involve any extra lookup step.
 
 =================================================================
-###WHAT IS A PRIMARY KEY?
+WHAT IS A PRIMARY KEY?
 ________________________________________________________________
 The PRIMARY KEY constraint uniquely identifies each record in a table.
 
@@ -41,7 +41,7 @@ Primary keys must contain UNIQUE values, and cannot contain NULL values.
 
 A table can have only ONE primary key;
 *****************************************
-###WHAT IS A FOREIGN KEY?
+WHAT IS A FOREIGN KEY?
 ________________________________________________________________
 A FOREIGN KEY is a key used to link two tables together.
 A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
@@ -51,7 +51,7 @@ In SQL Server, there are two keys - primary key and foreign key which seems iden
 
 *********************************************
 ============================================
-##FOREIGN KEY FORMULA:
+FOREIGN KEY FORMULA:
 ALTER TABLE [dbo].[taa tabela kade sto foreign key-to e child - tamu kade sto e foreign key]
  ADD CONSTRAINT [FK_taa tabela kade sto foreign key-to e child - tamu kade sto e foreign key_taa tabela kade sto foreign ket-to si e primary key (parent table)] 
 FOREIGN KEY ([SAMO kolonata od childod t.e samiot foreign key]) 
@@ -59,7 +59,7 @@ REFERENCES [dbo].[parentot so kolonata t.e tamu kade sto foreign key-to si e pri
 ============================================
 *********************************************
 
-###Primary Key AND Foreign Key
+Primary Key AND Foreign Key
 ____________________________________________________________
 Primary key uniquely identify a record in the table.
 Foreign key is a field in the table that is primary key in another table.
@@ -73,7 +73,7 @@ Foreign key do not automatically create an index, clustered or non-clustered. Yo
 We can have only one Primary key in a table.
 We can have more than one foreign key in a table.
 ====================================================
-###JOIN TYPES
+JOIN TYPES
 -----------
 Cross Join -> multiplications between the tables (football team each team has to play with every team - all the possible combinations)(gives us two tables so if there are duplicates they are given to us)
 Inner Join -> returns only matching rows that exists in both tables (gives us two tables so if there are duplicates they are given to us)
@@ -84,7 +84,7 @@ ON table1.column_name = table2.column_name;
 Outer Join -> 
 a) left join -> site od levo plus ako im najde spojka od desno gi spojuva i prikazuva i tie od desno a ako ne im najde togash prikazuva NULL od desno!
 b)full join -> se prikazuva i od levo i od desno ako ne najde spojki od levo so tie od desno i obratno stava NULL 
-###WHAT IS THE DIFFERENCE BETWEEN INTERSECT AND INNER JOIN?
+WHAT IS THE DIFFERENCE BETWEEN INTERSECT AND INNER JOIN?
 ____________________________________________________________
 The INNER JOIN will return duplicates, if id is duplicated in either table.  
 INTERSECT removes duplicates. 
