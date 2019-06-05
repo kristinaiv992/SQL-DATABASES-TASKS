@@ -1,4 +1,4 @@
-###WHAT IS A DATABASE?
+WHAT IS A DATABASE?
 ======================
 A large amount of information stored in a computer system in such a way it can be easily looked or changed!
 *TYPES OF DATABASES:
@@ -30,7 +30,7 @@ There can be only one clustered index per table. However, you can create multipl
 	2. 
 Clustered indexes only sort tables. Therefore, they do not consume extra storage. Non-clustered indexes are stored in a separate place from the actual table claiming more storage space.
 	3. 
-Clustered indexes are faster than non-clustered indexes since they don’t involve any extra lookup step.
+Clustered indexes are faster than non-clustered indexes since they donâ€™t involve any extra lookup step.
 
 =================================================================
 ###WHAT IS A PRIMARY KEY?
@@ -89,6 +89,7 @@ ____________________________________________________________
 The INNER JOIN will return duplicates, if id is duplicated in either table.  
 INTERSECT removes duplicates. 
 The INNER JOIN will never return NULL, but INTERSECT will return NULL.
+![JOINS](https://user-images.githubusercontent.com/45533932/58921269-22013900-8736-11e9-851c-85e50eabdc7c.jpg)
 ____________________________________________________________
 The SQL SELECT DISTINCT Statement. The SELECT DISTINCT statement is used to return only distinct (different) values. 
 Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values
