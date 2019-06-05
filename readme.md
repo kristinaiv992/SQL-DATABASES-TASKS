@@ -1,26 +1,26 @@
 WHAT IS A DATABASE?
-======================
+----------------------
 A large amount of information stored in a computer system in such a way it can be easily looked or changed!
 *TYPES OF DATABASES:
 -relational (sql);
 -non-relational(NoSql)
-----------------------
+
 In sql each column, local variable, expression and parameter have a related data type. A DATA TYPE CAN BE: int, nvarchar, varchar, char, binary, time.....
-========================
+----------------------
 CREATE ALTER AND DELETE DATABASE
 1.CREATE DATABASE
 --create database Sample1
-================================
+----------------------
 
 2.MODIFY THE DATABASE
  --alter database Sample1 modify name = Sample2
  sp_renameDB 'Sample2','Sample3'
 
-===========================================
+----------------------
 3.DELETE THE DATABASE
  drop database Sample3
 
-============================================
+----------------------
 CREATE AND WORKING WITH TABLES
 ____________________________________________________________
 What is the difference between Clustered and Non-Clustered Indexes in SQL Server?
@@ -32,7 +32,7 @@ Clustered indexes only sort tables. Therefore, they do not consume extra storage
 	3. 
 Clustered indexes are faster than non-clustered indexes since they don’t involve any extra lookup step.
 
-=================================================================
+----------------------
 WHAT IS A PRIMARY KEY?
 ________________________________________________________________
 The PRIMARY KEY constraint uniquely identifies each record in a table.
@@ -56,7 +56,7 @@ ALTER TABLE [dbo].[taa tabela kade sto foreign key-to e child - tamu kade sto e 
  ADD CONSTRAINT [FK_taa tabela kade sto foreign key-to e child - tamu kade sto e foreign key_taa tabela kade sto foreign ket-to si e primary key (parent table)] 
 FOREIGN KEY ([SAMO kolonata od childod t.e samiot foreign key]) 
 REFERENCES [dbo].[parentot so kolonata t.e tamu kade sto foreign key-to si e primary key (vo ova pole odi imeto na tabelata!!!!!)]([vo ova pole odi kolonata]);
-============================================
+----------------------
 *********************************************
 
 Primary Key AND Foreign Key
