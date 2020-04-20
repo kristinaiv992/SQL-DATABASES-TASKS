@@ -176,3 +176,8 @@ RIGHT JOIN dbo.Student AS S
 ON G.ID = S.StudentID
 where G.Grade is NULL
 GO
+
+--Change a value in a Students table
+UPDATE dbo.Student
+set Gender = 'M'
+WHERE FirstName = 'Antonio'
